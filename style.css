@@ -1,0 +1,91 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h3 {
+	font-weight: 900;
+	font-size: 40px;
+}
+
+/*Bootstrap Font*/
+body {
+	font-family: "Montserrat", sans-serif;
+	color: white;
+}
+
+
+/*Navbar Styles*/
+a.navbar-brand {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.navbar-nav > li{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.navbar > li, a {
+	color: white;
+}
+
+.navbar > li, a:hover {
+	color: gray;
+}
+
+.navbar a:active {
+	color: black;
+}
+.navbar-toggler {
+	font-color: white;
+}
+
+
+
+/*Landing/Home Styles*/
+.landing {
+	background: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+.landing h1 {
+	font-weight: 900;
+	font-size: 80px;
+}
+.landing img {
+	width: 200px;
+	color: white;
+}
+.landing a:hover {
+	transform: scale(1.0);
+    transition: all 0.8s;
+}
+.name {
+	margin-top: 18%;
+}
+.chevron {
+	margin-top: 15%;
+}
+.bi {
+	font-size: 30px;
+}
+
+
+/*About Me Styles*/
+.about-text {
+	margin-top: 8%;
+}
+
+
+/*Projects Styles*/
+
+
+
+/*Contact Styles*/
+h4.social {
+	text-decoration: underline;
+	font-weight: 600;
+}
+.social a:hover {
+	color: gray;
+}
